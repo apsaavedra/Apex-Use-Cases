@@ -1,5 +1,6 @@
 public with sharing class UseCase1 {
- 
+
+    //method to create a new contact
     public static void InsertNewContact(String firstName, String lastName, String email, String accountId) {
 
         List<Contact> listContacts = new List<Contact>();
