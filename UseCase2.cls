@@ -1,6 +1,6 @@
 public with sharing class UseCase2 {
 
-    // method to calculate simple interest
+    //method to calculate simple interest
     public static Decimal CalculateSimpleInterest(Decimal principal, Decimal interest, Integer timeInYears) {
 
         if (principal != null && interest != null && timeInYears != null) {
